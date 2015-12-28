@@ -11,6 +11,7 @@ DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 confflags = \
 	--enable-radeon \
 	--disable-libkms \
+	--disable-amdgpu \
 	$()
 
 # Linux vs. the rest:
