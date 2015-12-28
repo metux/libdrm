@@ -102,3 +102,5 @@ tests/exynos/exynos_fimg2d_event
 tests/exynos/exynos_fimg2d_perf
 tests/exynos/exynos_fimg2d_test
 man/*.3
+debian/autoreconf.after
+debian/autoreconf.before

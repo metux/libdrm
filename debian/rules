@@ -11,6 +11,7 @@ DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 confflags = \
 	--enable-radeon \
 	--disable-libkms \
+	--enable-amdgpu \
 	$()
 
 # Linux vs. the rest:
@@ -82,6 +83,7 @@ ifeq ($(NOUVEAU), yes)
 	dh_strip -plibdrm-nouveau2 --dbg-package=libdrm-nouveau2-dbg
 endif
 	dh_strip -plibdrm-radeon1 --dbg-package=libdrm-radeon1-dbg
+	dh_strip -plibdrm-amdgpu1 --dbg-package=libdrm-amdgpu1-dbg
 ifeq ($(ARM), yes)
 	dh_strip -plibdrm-omap1 --dbg-package=libdrm-omap1-dbg
 	dh_strip -plibdrm-freedreno1 --dbg-package=libdrm-freedreno1-dbg
@@ -99,6 +101,7 @@ ifeq ($(NOUVEAU), yes)
 	dh_makeshlibs -plibdrm-nouveau2 -V'libdrm-nouveau2 (>= 2.4.38)' -- -c4
 endif
 	dh_makeshlibs -plibdrm-radeon1 -V'libdrm-radeon1 (>= 2.4.39)' -- -c4
+	dh_makeshlibs -plibdrm-amdgpu1 -V'libdrm-amdgpu1 (>= 2.4.70)' -- -c4
 ifeq ($(ARM), yes)
 	dh_makeshlibs -plibdrm-omap1 -V'libdrm-omap1 (>= 2.4.38)' -- -c4
 	dh_makeshlibs -plibdrm-freedreno1 -V'libdrm-freedreno1 (>= 2.4.57)' -- -c4
