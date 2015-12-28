@@ -190,7 +190,7 @@ static void printhuman(unsigned long value, const char *name, int mult)
 static void getstats(int fd, int i)
 {
     drmStatsT prev, curr;
-    unsigned  j;
+    int       j;
     double    rate;
 
     printf("  System statistics:\n");
