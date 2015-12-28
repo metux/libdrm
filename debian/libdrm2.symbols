@@ -43,6 +43,8 @@ libdrm.so.2 libdrm2 #MINVER#
  drmFree@Base 2.3.1
  drmFreeBufs@Base 2.3.1
  drmFreeBusid@Base 2.3.1
+ drmFreeDevice@Base 2.4.60
+ drmFreeDevices@Base 2.4.60
  drmFreeReservedContextList@Base 2.3.1
  drmFreeVersion@Base 2.3.1
  drmGetBufInfo@Base 2.3.1
@@ -52,8 +54,10 @@ libdrm.so.2 libdrm2 #MINVER#
  drmGetContextFlags@Base 2.3.1
  drmGetContextPrivateMapping@Base 2.3.1
  drmGetContextTag@Base 2.3.1
+ drmGetDevice@Base 2.4.60
  drmGetDeviceNameFromFd@Base 2.4.16
  drmGetEntry@Base 2.3.1
+ drmGetDevices@Base 2.4.60
  drmGetHashTable@Base 2.3.1
  drmGetInterruptFromBusID@Base 2.3.1
  drmGetLibVersion@Base 2.3.1
@@ -81,13 +85,24 @@ libdrm.so.2 libdrm2 #MINVER#
  drmMarkBufs@Base 2.3.1
  drmModeAddFB2@Base 2.4.30
  drmModeAddFB@Base 2.4.3
+ drmModeAtomicAddProperty@Base 2.4.60
+ drmModeAtomicAlloc@Base 2.4.60
+ drmModeAtomicCommit@Base 2.4.60
+ drmModeAtomicDuplicate@Base 2.4.60
+ drmModeAtomicFree@Base 2.4.60
+ drmModeAtomicGetCursor@Base 2.4.60
+ drmModeAtomicMerge@Base 2.4.60
+ drmModeAtomicSetCursor@Base 2.4.60
  drmModeAttachMode@Base 2.4.3
  drmModeConnectorSetProperty@Base 2.4.3
+ drmModeCreatePropertyBlob@Base 2.4.60
  drmModeCrtcGetGamma@Base 2.4.3
  drmModeCrtcSetGamma@Base 2.4.3
+ drmModeDestroyPropertyBlob@Base 2.4.60
  drmModeDetachMode@Base 2.4.3
  drmModeDirtyFB@Base 2.4.17
  drmModeFreeConnector@Base 2.4.3
+ drmModeGetConnectorCurrent@Base 2.4.60
  drmModeFreeCrtc@Base 2.4.3
  drmModeFreeEncoder@Base 2.4.3
  drmModeFreeFB@Base 2.4.3
@@ -144,7 +159,6 @@ libdrm.so.2 libdrm2 #MINVER#
  drmSetBusid@Base 2.3.1
  drmSetClientCap@Base 2.4.47
  drmSetContextFlags@Base 2.3.1
- drmSetDebugMsgFunction@Base 2.3.1
  drmSetInterfaceVersion@Base 2.3.1
  drmSetMaster@Base 2.4.3
  drmSetServerInfo@Base 2.3.1
