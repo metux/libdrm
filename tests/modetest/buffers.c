@@ -71,6 +71,8 @@ bo_create_dumb(int fd, unsigned int width, unsigned int height, unsigned int bpp
 		return NULL;
 	}
 
+	printf("bo_create_dumb: w=%d h=%d bpp=%d\n", width, height, bpp);
+
 	memset(&arg, 0, sizeof(arg));
 	arg.bpp = bpp;
 	arg.width = width;

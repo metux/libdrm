@@ -1143,6 +1143,8 @@ static void set_cursors(struct device *dev, struct pipe_arg *pipes, unsigned int
 	unsigned int i;
 	int ret;
 
+	printf("set_cursors\n");
+
 	/* maybe make cursor width/height configurable some day */
 	uint32_t cw = 64;
 	uint32_t ch = 64;
@@ -1156,6 +1158,8 @@ static void set_cursors(struct device *dev, struct pipe_arg *pipes, unsigned int
 		return;
 
 	dev->mode.cursor_bo = bo;
+
+	printf("cursor bo handle: %d\n", handles[0]);
 
 	for (i = 0; i < count; i++) {
 		struct pipe_arg *pipe = &pipes[i];
@@ -1576,6 +1580,7 @@ int main(int argc, char **argv)
 			break;
 		case 'C':
 			test_cursor = 1;
+			printf("testing cursor\n");
 			break;
 		case 'v':
 			test_vsync = 1;
@@ -1622,8 +1627,11 @@ int main(int argc, char **argv)
 		return -1;
 	}
 
+	printf("...\n");
+
 	dev.resources = get_resources(&dev);
 	if (!dev.resources) {
+		printf("failed to get resources\n");
 		drmClose(dev.fd);
 		return 1;
 	}
@@ -1631,6 +1639,7 @@ int main(int argc, char **argv)
 	for (i = 0; i < count; i++) {
 		if (pipe_resolve_connectors(&dev, &pipe_args[i]) < 0) {
 			free_resources(dev.resources);
+			printf("failed to resolve connectors\n");
 			drmClose(dev.fd);
 			return 1;
 		}
@@ -1647,8 +1656,12 @@ int main(int argc, char **argv)
 	for (i = 0; i < prop_count; ++i)
 		set_property(&dev, &prop_args[i]);
 
+	printf("one\n");
+
 	if (count || plane_count) {
 		uint64_t cap = 0;
+
+		printf("plane ...\n");
 
 		ret = drmGetCap(dev.fd, DRM_CAP_DUMB_BUFFER, &cap);
 		if (ret || cap == 0) {
@@ -1682,6 +1695,8 @@ int main(int argc, char **argv)
 		if (count)
 			clear_mode(&dev);
 	}
+	else
+	    printf("no plane testing\n");
 
 	free_resources(dev.resources);
 

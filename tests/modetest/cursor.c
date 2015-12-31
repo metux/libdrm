@@ -83,11 +83,16 @@ static void set_cursor(struct cursor *cursor, const struct cursor_step *step)
 	int enabled = (step->arg ^ count) & 0x1;
 	uint32_t handle = 0;
 
-	if (enabled)
+	printf("setcursor\n");
+
+	if (enabled) {
 		handle = cursor->bo_handle;
+		printf("cursor enabled\n");
+	}
 
 	cursor->enabled = enabled;
 
+	printf("set_cursor crtc: %d handle: %d\n", cursor->crtc_id, handle);
 	drmModeSetCursor(cursor->fd, cursor->crtc_id, handle, cursor->w, cursor->h);
 }
 
@@ -96,9 +101,13 @@ static void move_cursor(struct cursor *cursor, const struct cursor_step *step)
 	int x = cursor->x;
 	int y = cursor->y;
 
-	if (!cursor->enabled)
+	printf("movecursor\n");
+
+	if (!cursor->enabled) {
+		printf("--> moving the cursor\n");
 		drmModeSetCursor(cursor->fd, cursor->crtc_id,
 				cursor->bo_handle, cursor->w, cursor->h);
+	}
 
 	/* calculate new cursor position: */
 	x += cursor->dx * step->arg;

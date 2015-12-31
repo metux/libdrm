@@ -1,0 +1,498 @@
+testing cursor
+trying to open device 'i915'...done
+...
+one
+plane ...
+bo_create_dumb: w=1366 h=768 bpp=32
+setting mode 1366x768-60Hz@XR24 on connectors 9, crtc 3
+set_cursors
+bo_create_dumb: w=64 h=64 bpp=32
+cursor bo handle: 2
+starting cursor
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+movecursor
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+setcursor
+cursor enabled
+set_cursor crtc: 3 handle: 2
+setcursor
+set_cursor crtc: 3 handle: 0
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cursor
+movecursor
+--> moving the cu
